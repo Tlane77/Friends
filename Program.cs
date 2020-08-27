@@ -48,6 +48,9 @@ namespace Friends
             string ninthFriend = "Brandon";
             Console.WriteLine($"My friends are {firstFriend},{secondFriend},{thirdFriend},{fourthFriend},{fifthFriend},{sixthFriend},{seventhFriend},{eighthFriend} and {ninthFriend}");
 
+            Console.WriteLine($"The name {firstFriend} has {firstFriend.Length} letters.");
+            Console.WriteLine($"The name {secondFriend} has {secondFriend.Length} letters.");
+
         }
     }
 }
