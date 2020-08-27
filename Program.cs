@@ -46,11 +46,24 @@ namespace Friends
             string seventhFriend = "John";
             string eighthFriend = "Tyler";
             string ninthFriend = "Brandon";
-            Console.WriteLine($"My friends are {firstFriend},{secondFriend},{thirdFriend},{fourthFriend},{fifthFriend},{sixthFriend},{seventhFriend},{eighthFriend} and {ninthFriend}");
+            string tenthFriend = "David";
+            string eleventhFriend = "Sisi";
+            string twelfthFriend = "Zach";
+
+            Console.WriteLine($"My friends are {firstFriend},{secondFriend},{thirdFriend},{fourthFriend},{fifthFriend},{sixthFriend},{seventhFriend},{eighthFriend},{ninthFriend},{tenthFriend},{eleventhFriend} and {twelfthFriend}");
 
             Console.WriteLine($"The name {firstFriend} has {firstFriend.Length} letters.");
             Console.WriteLine($"The name {secondFriend} has {secondFriend.Length} letters.");
-
+            Console.WriteLine($"The name {thirdFriend} has {thirdFriend.Length} letters.");
+            Console.WriteLine($"The name {fourthFriend} has {fourthFriend.Length} letters.");
+            Console.WriteLine($"The name {fifthFriend} has {fifthFriend.Length} letters.");
+            Console.WriteLine($"The name {sixthFriend} has {sixthFriend.Length} letters.");
+            Console.WriteLine($"The name {seventhFriend} has {seventhFriend.Length} letters.");
+            Console.WriteLine($"The name {eighthFriend} has {eighthFriend.Length} letters.");
+            Console.WriteLine($"The name {ninthFriend} has {ninthFriend.Length} letters.");
+            Console.WriteLine($"The name {tenthFriend} has {tenthFriend.Length} letters.");
+            Console.WriteLine($"The name {eleventhFriend} has {eleventhFriend.Length} letters.");
+            Console.WriteLine($"The name {twelfthFriend} has {twelfthFriend.Length} letters.");
         }
     }
 }
