@@ -64,6 +64,25 @@ namespace Friends
             Console.WriteLine($"The name {tenthFriend} has {tenthFriend.Length} letters.");
             Console.WriteLine($"The name {eleventhFriend} has {eleventhFriend.Length} letters.");
             Console.WriteLine($"The name {twelfthFriend} has {twelfthFriend.Length} letters.");
+
+            ///Learning Trims {TrimEnd,TrimStart,Trim} (WhiteSpaces)
+
+            string greeting = "      Hello World!       ";
+            Console.WriteLine($"[{greeting}]");
+
+            string trimmedGreeting = greeting.TrimStart();
+            Console.WriteLine($"[{trimmedGreeting}]");
+
+            trimmedGreeting = greeting.TrimEnd();
+            Console.WriteLine($"[{trimmedGreeting}]");
+
+            trimmedGreeting = greeting.Trim();
+            Console.WriteLine($"[{trimmedGreeting}]");
+
+            //[      Hello World!       ]
+            //[Hello World!       ]
+            //[      Hello World!]
+            //[Hello World!]
         }
     }
 }
