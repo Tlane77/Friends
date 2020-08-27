@@ -8,6 +8,9 @@ namespace Friends
         {
             Console.WriteLine("Friends!");
 
+            string aFriend = "Bill";
+            Console.WriteLine(aFriend);
+
         }
     }
 }
