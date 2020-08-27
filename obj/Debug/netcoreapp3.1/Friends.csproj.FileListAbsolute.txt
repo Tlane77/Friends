@@ -1,0 +1,13 @@
+C:\Users\tlane\workspace\Friends\bin\Debug\netcoreapp3.1\Friends.exe
+C:\Users\tlane\workspace\Friends\bin\Debug\netcoreapp3.1\Friends.deps.json
+C:\Users\tlane\workspace\Friends\bin\Debug\netcoreapp3.1\Friends.runtimeconfig.json
+C:\Users\tlane\workspace\Friends\bin\Debug\netcoreapp3.1\Friends.runtimeconfig.dev.json
+C:\Users\tlane\workspace\Friends\bin\Debug\netcoreapp3.1\Friends.dll
+C:\Users\tlane\workspace\Friends\bin\Debug\netcoreapp3.1\Friends.pdb
+C:\Users\tlane\workspace\Friends\obj\Debug\netcoreapp3.1\Friends.csprojAssemblyReference.cache
+C:\Users\tlane\workspace\Friends\obj\Debug\netcoreapp3.1\Friends.AssemblyInfoInputs.cache
+C:\Users\tlane\workspace\Friends\obj\Debug\netcoreapp3.1\Friends.AssemblyInfo.cs
+C:\Users\tlane\workspace\Friends\obj\Debug\netcoreapp3.1\Friends.csproj.CoreCompileInputs.cache
+C:\Users\tlane\workspace\Friends\obj\Debug\netcoreapp3.1\Friends.dll
+C:\Users\tlane\workspace\Friends\obj\Debug\netcoreapp3.1\Friends.pdb
+C:\Users\tlane\workspace\Friends\obj\Debug\netcoreapp3.1\Friends.genruntimeconfig.cache
