@@ -98,10 +98,16 @@ namespace Friends
             Console.WriteLine(sayHello.ToUpper());
             Console.WriteLine(sayHello.ToLower());
 
+            //Bool TRUE OR FALSE using Contains
             string songLyrics = "You say goodbye, and I say hello";
             Console.WriteLine(songLyrics.Contains("goodbye"));
             Console.WriteLine(songLyrics.Contains("greetings"));
             Console.WriteLine(aFriend.Contains("G"));
+
+            //StartsWith or EndsWith
+            string poem = "You say goodbye, and I say hello";
+            Console.WriteLine(poem.StartsWith("You"));
+            Console.WriteLine(poem.EndsWith("goodbye"));
         }
     }
 }
