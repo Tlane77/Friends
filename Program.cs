@@ -94,9 +94,14 @@ namespace Friends
             //Replaces Hello with Greetings
             //Greetings World!
 
+            //How to make all the letters upper or lower case
             Console.WriteLine(sayHello.ToUpper());
             Console.WriteLine(sayHello.ToLower());
 
+            string songLyrics = "You say goodbye, and I say hello";
+            Console.WriteLine(songLyrics.Contains("goodbye"));
+            Console.WriteLine(songLyrics.Contains("greetings"));
+            Console.WriteLine(aFriend.Contains("G"));
         }
     }
 }
