@@ -86,7 +86,7 @@ namespace Friends
 
             //Learning Replace
 
-            string sayHello = "Hello World!";
+            string sayHello = "Hello Liam!";
             Console.WriteLine(sayHello);
             sayHello = sayHello.Replace("Hello", "Greetings");
             Console.WriteLine(sayHello);
@@ -105,9 +105,10 @@ namespace Friends
             Console.WriteLine(aFriend.Contains("G"));
 
             //StartsWith or EndsWith
-            string poem = "You say goodbye, and I say hello";
+            string poem = "You say goodbye, and I say hello Liam";
             Console.WriteLine(poem.StartsWith("You"));
             Console.WriteLine(poem.EndsWith("goodbye"));
+            Console.WriteLine(poem.EndsWith("Liam"));
         }
     }
 }
