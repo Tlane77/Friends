@@ -79,10 +79,18 @@ namespace Friends
             trimmedGreeting = greeting.Trim();
             Console.WriteLine($"[{trimmedGreeting}]");
 
-            //[      Hello World!       ]
-            //[Hello World!       ]
-            //[      Hello World!]
-            //[Hello World!]
+            //[      Hello World!       ]original
+            //[Hello World!       ]TrimStart
+            //[      Hello World!]TrimEnd
+            //[Hello World!]Trim
+
+            //Learning Replace
+
+            string sayHello = "Hello World!";
+            Console.WriteLine(sayHello);
+            sayHello = sayHello.Replace("Hello", "Greetings");
+            Console.WriteLine(sayHello);
+
         }
     }
 }
