@@ -91,6 +91,12 @@ namespace Friends
             sayHello = sayHello.Replace("Hello", "Greetings");
             Console.WriteLine(sayHello);
 
+            //Replaces Hello with Greetings
+            //Greetings World!
+
+            Console.WriteLine(sayHello.ToUpper());
+            Console.WriteLine(sayHello.ToLower());
+
         }
     }
 }
